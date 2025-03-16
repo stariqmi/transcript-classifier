@@ -1,19 +1,9 @@
-import sys
-from catalogue import find_similar_courses
+from evaluator import evaluate_transcript
 
 def main():
-    # Read the description from stdin
-    description = "Machine learning and artificial intelligence concepts"
-    
-    # Find similar courses
-    similar_courses = find_similar_courses(description)
-    
-    # Print results
-    print("\nSimilar courses:")
-    for course_code, desc, similarity in similar_courses:
-        print(f"\nCourse: {course_code}")
-        print(f"Similarity: {similarity:.4f}")
-        print(f"Description: {desc}")
+    transcript_path = "JordanTranscript.pdf"
+    print(evaluate_transcript(transcript_path))
+
 
 if __name__ == "__main__":
     main()
