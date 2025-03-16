@@ -77,11 +77,14 @@ def find_similar_courses(description: str, n: int = 5):
         similarities = []
         for course in courses:
             # Calculate cosine similarity
-            similarity = cosine_similarity(query_embedding, course.embedding)
+            similarity = cosine_similarity(
+                query_embedding.reshape(1, -1), 
+                course.embedding.reshape(1, -1)
+            )
             similarities.append((
                 course.course_code,
                 course.description,
-                float(similarity)
+                float(similarity[0][0])  # sklearn returns a 2D array
             ))
         
         # Sort by similarity score in descending order
@@ -89,10 +92,3 @@ def find_similar_courses(description: str, n: int = 5):
         
         # Return top n results
         return similarities[:n]
-
-def cosine_similarity(v1, v2):
-    """Calculate cosine similarity between two vectors."""
-    dot_product = sum(a * b for a, b in zip(v1, v2))
-    norm_v1 = sum(a * a for a in v1) ** 0.5
-    norm_v2 = sum(a * a for a in v2) ** 0.5
-    return dot_product / (norm_v1 * norm_v2)
