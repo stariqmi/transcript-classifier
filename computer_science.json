@@ -1,0 +1,300 @@
+{
+    "courses": [
+        {
+            "course_code": "CS 100S",
+            "description": "Communication Skills.\nAn introduction to oral and written communication skills, teamwork, and self-assessment. Topics include technical writing, oral presentations, reading comprehension, critical thinking, interpersonal skills, and time management. Credit is not granted for both CS 100S and ENGL 109. [0.50]"
+        },
+        {
+            "course_code": "CS 105",
+            "description": "Introduction to Computer Applications.\nAn introduction to the use of computers for analysis, visualization, and communication. Topics include spreadsheet software, data analysis, data visualization, presentation software, the world wide web, and the impact of computers on society. Antirequisite: GENE 123. [0.50]"
+        },
+        {
+            "course_code": "CS 106",
+            "description": "Introduction to Programming.\nA first course in computer programming. Topics include: problem analysis and algorithm design; program structure and control flow; data types, functions, arrays; testing and debugging; and an introduction to object-oriented design. [0.50]"
+        },
+        {
+            "course_code": "CS 115",
+            "description": "Introduction to Computer Science.\nAn introduction to the fundamental concepts and techniques of computer science, suitable for students with little or no programming experience. Topics include: data types; control structures; functions; arrays; file I/O; and an introduction to algorithm design, testing, and object-oriented programming. [0.50]"
+        },
+        {
+            "course_code": "CS 116",
+            "description": "Introduction to Computer Science II.\nA second course in computer science emphasizing problem solving using abstract data types. Topics include: lists; stacks; queues; trees; recursion; searching; sorting; algorithm analysis; and an introduction to object-oriented programming. Prerequisite: CS 115. [0.50]"
+        },
+        {
+            "course_code": "CS 135",
+            "description": "Designing Functional Programs.\nAn introduction to the fundamental principles of programming from a functional perspective. Topics include: data types; control flow; functions as first-class values; recursion; lists; trees; and program design, testing, and reasoning. [0.50]"
+        },
+        {
+            "course_code": "CS 136",
+            "description": "Elementary Algorithm Design and Data Abstraction.\nFundamental concepts of data abstraction and elementary data structures using an imperative programming language. Topics include: abstract data types; stacks; queues; lists; trees; algorithm analysis; recursion; searching; sorting; and an introduction to object-oriented programming. Prerequisite: CS 135. [0.50]"
+        },
+        {
+            "course_code": "CS 137",
+            "description": "Programming Principles.\nIntroduction to software development with attention to design principles and code quality. Topics include: language syntax and semantics; data types; control structures; functions and parameter passing; data abstraction; recursion; testing; and elementary algorithm analysis. Prerequisite: Level is at least 2A and one of CS 116 or CS 136; Computer Science or Software Engineering students only. [0.50]"
+        },
+        {
+            "course_code": "CS 138",
+            "description": "Introduction to Data Abstraction and Implementation.\nIntroduction to data abstraction and implementation. Topics include: abstract data types; stacks; queues; lists; trees; tables; searching; sorting; and algorithm analysis. Prerequisite: CS 137. [0.50]"
+        },
+        {
+            "course_code": "CS 145",
+            "description": "Designing Interactive Systems.\nIntroduction to the fundamental concepts and techniques of interaction design, suitable for students with little or no programming experience. Topics include: the human-computer interaction design cycle; interaction design principles; user interface programming techniques; and user interface evaluation techniques. [0.50]"
+        },
+        {
+            "course_code": "CS 230",
+            "description": "Logic and Computation.\nPropositional and predicate logic; formal reasoning; applications to program specification and verification; computability and complexity. Prerequisites: One of CS 116 or CS 136; MATH 135 or MATH 145. [0.50]"
+        },
+        {
+            "course_code": "CS 231",
+            "description": "Data Structures and Data Management.\nData structures for information storage and retrieval, including dictionaries, hash tables, priority queues, search trees, and persistent data structures. Data management issues including file organization, indexing, and transactions. Prerequisites: One of CS 116 or CS 136; CS 137; ECE 250. [0.50]"
+        },
+        {
+            "course_code": "CS 240",
+            "description": "Data Structures and Data Management.\nData structures for information storage and retrieval, including lists, trees, dictionaries, hash tables, priority queues, and search trees. Data management issues including file organization, indexing, and transactions. Prerequisites: One of CS 116 or CS 136; ECE 250. [0.50]"
+        },
+        {
+            "course_code": "CS 241E",
+            "description": "Foundations of Sequential Programs.\n(Cross-listed with ECE 252) Assembly language programming with emphasis on machine organization, data representation, instruction formats, arithmetic, program control, subroutines, stacks, assemblers, linkers, loaders, and input/output programming. Prerequisites: ECE 124; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 241",
+            "description": "Foundations of Sequential Programs.\n(Cross-listed with ECE 252) Assembly language programming with emphasis on machine organization, data representation, instruction formats, arithmetic, program control, subroutines, stacks, assemblers, linkers, loaders, and input/output programming. Prerequisites: ECE 124; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 245",
+            "description": "Logic and Computation.\nPropositional and predicate logic; formal reasoning; applications to program specification and verification; computability and complexity. Prerequisites: One of CS 116 or CS 136; MATH 135 or MATH 145. [0.50]"
+        },
+        {
+            "course_code": "CS 246E",
+            "description": "Object-Oriented Software Development.\n(Cross-listed with ECE 251) Software design and development using object-oriented and generic programming techniques. Topics include: software architecture, design patterns, testing methodologies, and formal specifications. Prerequisites: ECE 124; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 246",
+            "description": "Object-Oriented Software Development.\n(Cross-listed with ECE 251) Software design and development using object-oriented and generic programming techniques. Topics include: software architecture, design patterns, testing methodologies, and formal specifications. Prerequisites: ECE 124; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 251",
+            "description": "Computer Organization and Design.\n(Cross-listed with ECE 222) Introduction to computer organization and design. Topics include: performance evaluation; instruction sets and their impact on computer design; computer arithmetic; the design of a central processing unit; pipelining; memory systems; input/output systems; and multiprocessors. Prerequisite: ECE 124. [0.50]"
+        },
+        {
+            "course_code": "CS 290",
+            "description": "Project Definition Study.\nStudents undertake a preliminary investigation and definition of a project for a subsequent capstone course. Credit is only given upon successful completion of CS 492. Prerequisite: Level is at least 2A Computer Science students only. [0.25]"
+        },
+        {
+            "course_code": "CS 330",
+            "description": "Management Information Systems.\nIntroduction to management information systems; transaction processing systems; decision support systems; executive information systems; artificial intelligence; expert systems; databases and database management systems; end-user computing; information resource management; social, ethical, legal, and security issues in information systems. Prerequisite: Level is at least 3A. [0.50]"
+        },
+        {
+            "course_code": "CS 335",
+            "description": "Object-Oriented Software Development.\nSoftware design and development using object-oriented and generic programming techniques. Topics include: software architecture, design patterns, testing methodologies, and formal specifications. Prerequisites: One of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 336",
+            "description": "Introduction to Theoretical Computer Science.\nFinite automata, regular expressions, context-free grammars, pushdown automata, Turing machines, computability, undecidability, and the Chomsky hierarchy. Prerequisite: CS 245. [0.50]"
+        },
+        {
+            "course_code": "CS 338",
+            "description": "Computer Graphics.\nAn introduction to the concepts and techniques used in computer graphics. Topics include: 2D and 3D geometric transformations; clipping; scan conversion; hidden surface removal; shading models; and ray tracing. Prerequisites: MATH 235 or MATH 245; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 341",
+            "description": "Algorithms.\nDesign and analysis of efficient algorithms. Topics include: sorting; searching; graph algorithms; dynamic programming; greedy algorithms; NP-completeness. Prerequisites: One of CS 240 or CS 231; CS 245; STAT 230 or STAT 231 or ECE 207. [0.50]"
+        },
+        {
+            "course_code": "CS 343",
+            "description": "Concurrent and Parallel Programming.\nPrinciples and practice of concurrent programming: processes, threads, race conditions, mutual exclusion, semaphores, monitors, message passing. Parallel programming: shared memory multiprocessors, message-passing multicomputers, data parallelism, and parallel algorithms. Prerequisites: CS 241; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 345",
+            "description": "Software Engineering Principles and Practices.\nIntroduction to software engineering principles and practices. Topics include: software development life cycle models; requirements engineering; software design; software testing; and software project management. Prerequisites: One of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 346",
+            "description": "Operating Systems.\nIntroduction to operating systems. Topics include: process management; memory management; file systems; input/output; and protection. Prerequisites: CS 241; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 348",
+            "description": "Introduction to Database Management.\nData models, database design, relational algebra, SQL, transaction management, concurrency control, recovery, and database security. Prerequisites: One of CS 240 or CS 231; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 349",
+            "description": "User Interfaces.\nIntroduction to the design and implementation of user interfaces. Topics include: human-computer interaction principles; user interface design methodologies; user interface programming techniques; and user interface evaluation techniques. Prerequisites: One of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 350",
+            "description": "Real-Time Operating Systems.\n(Cross-listed with ECE 350) Introduction to real-time operating systems. Topics include: real-time scheduling; inter-process communication; synchronization; memory management; and input/output. Prerequisites: ECE 222 or CS 251; ECE 254. [0.50]"
+        },
+        {
+            "course_code": "CS 360",
+            "description": "Introduction to Artificial Intelligence.\nIntroduction to the concepts and techniques of artificial intelligence. Topics include: search; knowledge representation; reasoning; planning; and learning. Prerequisites: One of CS 240 or CS 231; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 365",
+            "description": "Models of Computation.\nTheoretical models of computation, including finite automata, regular expressions, context-free grammars, pushdown automata, Turing machines, computability, undecidability, and the Chomsky hierarchy. Prerequisite: CS 245. [0.50]"
+        },
+        {
+            "course_code": "CS 370",
+            "description": "Numerical Computation.\nIntroduction to numerical computation. Topics include: error analysis; root finding; interpolation; numerical integration; and numerical linear algebra. Prerequisites: MATH 235 or MATH 245; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 371",
+            "description": "Introduction to Computational Optimization.\nIntroduction to computational optimization. Topics include: linear programming; integer programming; nonlinear programming; and dynamic programming. Prerequisites: MATH 235 or MATH 245; one of CS 116 or CS 136. [0.50]"
+        },
+        {
+            "course_code": "CS 390",
+            "description": "Data-Centric Algorithm Development.\n(Cross-listed with MSCI 311) In this course, students will learn how to develop algorithms from a data-centric perspective. This will include learning how to apply the data science life cycle, apply machine learning algorithms and statistical modelling to real-world problems. They will apply design thinking to help them understand problem contexts and to design solutions. Prerequisites: STAT 202 or STAT 231 or STAT 241. [0.50]"
+        },
+        {
+            "course_code": "CS 430",
+            "description": "Information Retrieval.\nIntroduction to information retrieval. Topics include: indexing; retrieval models; query languages; evaluation; and web search. Prerequisites: One of CS 240 or CS 231; one of CS 246 or ECE 251. [0.50]"
+        },
+        {
+            "course_code": "CS 431",
+            "description": "Compiler Construction.\nIntroduction to compiler construction. Topics include: lexical analysis; parsing; semantic analysis; code generation; and optimization. Prerequisites: CS 241; CS 245. [0.50]"
+        },
+        {
+            "course_code": "CS 432",
+            "description": "Real-Time Systems.\n(Cross-listed with ECE 454) Introduction to real-time systems. Topics include: real-time scheduling; inter-process communication; synchronization; memory management; and input/output. Prerequisites: CS 346; ECE 350. [0.50]"
+        },
+        {
+            "course_code": "CS 433",
+            "description": "Parallel Computation.\nPrinciples and practice of parallel computation. Topics include: parallel architectures; parallel algorithms; parallel programming languages; and parallel program development. Prerequisites: CS 343; one of CS 341 or ECE 358. [0.50]"
+        },
+        {
+            "course_code": "CS 434",
+            "description": "Sensor Networks.\n(Cross-listed with ECE 418) An introduction to sensor networks. Topics include: sensor network architectures; sensor network protocols; sensor network programming; and sensor network applications. Prerequisites: CS 346; ECE 318. [0.50]"
+        },
+        {
+            "course_code": "CS 436",
+            "description": "Introduction to Cryptography.\nIntroduction to the concepts and techniques of cryptography. Topics include: symmetric-key cryptography; public-key cryptography; digital signatures; and cryptographic protocols. Prerequisites: CS 245; one of CS 341 or ECE 358. [0.50]"
+        },
+        {
+            "course_code": "CS 438",
+            "description": "Advanced Computer Graphics.\nAdvanced topics in computer graphics. Topics may include: advanced rendering techniques; global illumination; physically based animation; and virtual reality. Prerequisite: CS 338. [0.50]"
+        },
+        {
+            "course_code": "CS 442",
+            "description": "Software Testing and Quality Assurance.\nIn-depth study of software testing and quality assurance techniques. Topics include: testing methodologies; test case generation; test management; and quality assurance metrics. Prerequisite: CS 345. [0.50]"
+        },
+        {
+            "course_code": "CS 444",
+            "description": "Database Systems.\nIn-depth study of database systems. Topics include: query processing; transaction management; concurrency control; recovery; and database security. Prerequisite: CS 348. [0.50]"
+        },
+        {
+            "course_code": "CS 445",
+            "description": "Human-Computer Interaction.\nIn-depth study of human-computer interaction. Topics include: user interface design methodologies; user interface programming techniques; user interface evaluation techniques; and user interface design for mobile devices. Prerequisite: CS 349. [0.50]"
+        },
+        {
+            "course_code": "CS 446",
+            "description": "Software Design.\nIn-depth study of software design principles and practices. Topics include: software architecture; design patterns; and component-based software development. Prerequisite: CS 335. [0.50]"
+        },
+        {
+            "course_code": "CS 447",
+            "description": "Software Comprehension and Maintenance.\nIn-depth study of software comprehension and maintenance techniques. Topics include: software reverse engineering; software refactoring; and software evolution. Prerequisite: CS 345. [0.50]"
+        },
+        {
+            "course_code": "CS 448",
+            "description": "Software Dependability.\nAn in-depth look at software dependability including specification, design, implementation, testing, and maintenance. Prerequisite: CS 345. [0.50]"
+        },
+        {
+            "course_code": "CS 449",
+            "description": "Web Information Systems.\n(Cross-listed with ECE 489) In-depth study of Web information systems. Topics include: Web search; Web mining; Web services; and Semantic Web. Prerequisite: CS 348. [0.50]"
+        },
+        {
+            "course_code": "CS 451",
+            "description": "Data-Intensive Distributed Computing.\n(Cross-listed with ECE 419) This course will cover fundamental principles, techniques and tools for building data-intensive systems that scale to large volumes of data. Focus on distributed programming models, such as MapReduce, and systems that are built upon it, such as Hadoop. Prerequisites: ECE 318 or CS 346. [0.50]"
+        },
+        {
+            "course_code": "CS 452",
+            "description": "Real-Time Programming.\n(Cross-listed with ECE 452) Students will learn and apply fundamental concepts of real-time systems. Topics include: kernel structure; task management; scheduling; synchronization; inter-process communication; memory management; and input/output. Prerequisites: ECE 350 or CS 350. [0.50]"
+        },
+        {
+            "course_code": "CS 454",
+            "description": "Distributed Systems.\n(Cross-listed with ECE 458) Introduction to the concepts and techniques of distributed systems. Topics include: distributed architectures; distributed algorithms; distributed file systems; and distributed databases. Prerequisites: CS 346; ECE 318. [0.50]"
+        },
+        {
+            "course_code": "CS 456",
+            "description": "Computer Networks.\n(Cross-listed with ECE 457) Introduction to computer networks. Topics include: network architectures; network protocols; network programming; and network applications. Prerequisites: CS 346; ECE 318. [0.50]"
+        },
+        {
+            "course_code": "CS 457A",
+            "description": "Mobile Communications.\n(Cross-listed with ECE 467A) This course presents an overview of mobile communications principles and technologies. Topics include: cellular systems; multiple access techniques; wireless networking protocols; and mobile applications. Prerequisite: ECE 318. [0.50]"
+        },
+        {
+            "course_code": "CS 458",
+            "description": "Computer Security and Privacy.\n(Cross-listed with ECE 424) Introduction to computer security and privacy. Topics include: security threats; security vulnerabilities; security mechanisms; and security policies. Prerequisites: CS 346; ECE 318. [0.50]"
+        },
+        {
+            "course_code": "CS 462",
+            "description": "Knowledge Representation.\nIn-depth study of knowledge representation techniques. Topics include: logic; semantic networks; frames; and description logics. Prerequisite: CS 360. [0.50]"
+        },
+        {
+            "course_code": "CS 466",
+            "description": "Game Artificial Intelligence.\nIntroduction to the concepts and techniques of game artificial intelligence. Topics include: search; planning; learning; and decision making. Prerequisite: CS 360. [0.50]"
+        },
+        {
+            "course_code": "CS 473",
+            "description": "Computational Geometry.\nAn introduction to geometric algorithms. Topics include: convex hulls; Voronoi diagrams; Delaunay triangulations; and geometric data structures. Prerequisites: One of CS 240 or CS 231; CS 341. [0.50]"
+        },
+        {
+            "course_code": "CS 475",
+            "description": "Combinatorial Optimization.\nIn-depth study of combinatorial optimization techniques. Topics include: linear programming; integer programming; dynamic programming; and branch and bound. Prerequisite: CS 371. [0.50]"
+        },
+        {
+            "course_code": "CS 476",
+            "description": "Quantum Information Processing.\n(Cross-listed with CO 487/PMATH 487) A mathematically rigorous introduction to the exciting new field of quantum computation and quantum information theory. Topics include: the quantum circuit model, quantum Fourier transform, Shor\"s factoring algorithm, Grover\"s search algorithm, quantum error correction, quantum cryptography, and quantum communication. Prerequisites: MATH 235 or MATH 245; one of CS 245 or ECE 222. [0.50]"
+        },
+        {
+            "course_code": "CS 480",
+            "description": "Computational Linguistics.\nAn introduction to the computational techniques used to process human language. Topics include: parsing; semantic analysis; and discourse analysis. Prerequisite: CS 360. [0.50]"
+        },
+        {
+            "course_code": "CS 482",
+            "description": "Computational Biology.\nAn introduction to the computational techniques used to solve problems in biology. Topics include: sequence alignment; phylogenetic tree construction; and protein structure prediction. Prerequisites: One of CS 240 or CS 231; CS 341. [0.50]"
+        },
+        {
+            "course_code": "CS 484",
+            "description": "Visual Cognition.\nVisual Cognition is a branch of cognitive science concerned with the computer modelling of human visual perception, attention, and scene understanding. The course will provide an introduction to the subject and equip students with skills to analyse visual attention, visual search and visual recognition problems. Prerequisite: CS 360. [0.50]"
+        },
+        {
+            "course_code": "CS 485",
+            "description": "Computer Vision.\nThis course covers fundamental principles and techniques for image analysis and computer vision. It will focus on a range of important topics, including image formation, feature extraction, segmentation, object recognition, and image understanding. Prerequisites: CS 338; STAT 202 or STAT 231 or STAT 241. [0.50]"
+        },
+        {
+            "course_code": "CS 486",
+            "description": "Introduction to Machine Learning.\nAn introduction to the concepts and techniques of machine learning. Topics include: supervised learning; unsupervised learning; reinforcement learning; and evaluation. Prerequisites: One of CS 240 or CS 231; STAT 230 or STAT 231 or ECE 207. [0.50]"
+        },
+        {
+            "course_code": "CS 487",
+            "description": "Computational Game Theory.\nThis course is an introduction to the field of computational game theory. The course will cover algorithmic, mathematical and economic foundations of the field with a focus on various applications. Prerequisite: CS 341. [0.50]"
+        },
+        {
+            "course_code": "CS 488",
+            "description": "3D Modeling and Animation.\nIn-depth study of 3D modeling and animation techniques. Topics include: 3D modeling representations; animation techniques; and rendering. Prerequisite: CS 338. [0.50]"
+        },
+        {
+            "course_code": "CS 489",
+            "description": "Autonomous Mobile Robots.\n(Cross-listed with ECE 416) This course provides an introduction to the theory and practice of autonomous mobile robots. Topics include: robot kinematics; robot dynamics; robot control; robot perception; and robot planning. Prerequisites: ECE 241 or CS 241; ECE 250 or CS 240; one of ECE 207, STAT 231, STAT 241 or equivalent. [0.50]"
+        },
+        {
+            "course_code": "CS 490",
+            "description": "Directed Studies.\nStudents undertake an independent study of a topic in computer science under the supervision of a faculty member. Prerequisite: Permission of the instructor. [0.50]"
+        },
+        {
+            "course_code": "CS 491",
+            "description": "Project.\nStudents undertake a project in computer science under the supervision of a faculty member. Prerequisite: Permission of the instructor. [0.50]"
+        },
+        {
+            "course_code": "CS 492",
+            "description": "Capstone Design Project.\nStudents work in teams to design and implement a software or hardware system. Prerequisites: CS 290; Level is at least 4A Computer Science students only. [1.00]"
+        },
+        {
+            "course_code": "CS 498R",
+            "description": "Research Project.\nStudents undertake a research project in computer science under the supervision of a faculty member. Prerequisite: Permission of the instructor. [0.50]"
+        },
+        {
+            "course_code": "CS 499T",
+            "description": "Senior Thesis.\nStudents undertake a research project in computer science under the supervision of a faculty member and write a senior thesis. Prerequisite: Permission of the instructor. [1.00]"
+        }
+    ]
+}
