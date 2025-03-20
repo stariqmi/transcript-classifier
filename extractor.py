@@ -56,3 +56,68 @@ def extract_course_info(file_path) -> list[Course]:
             continue
     
     return [Course(code=course['code'], description=course['description']) for course in courses]
+
+
+def extract_transcript_info(file_path) -> str:
+    """Extract transcript information from a PDF or image file."""
+    file_path = Path(file_path)
+    
+    # Prepare the images
+    if file_path.suffix.lower() == '.pdf':
+        images = convert_pdf_to_images(file_path)
+    else:
+        images = [Image.open(file_path)]
+    
+    prompt = """
+    Analyze this transcript image and classify it based on these specific criteria.
+    Provide your analysis in this exact JSON format:
+
+    {
+        "institution": {
+            "name": "string or N/A",
+            "code": "string or N/A",
+            "confidence": "high|medium|low",
+            "location": "where in document"
+        },
+        "format": {
+            "style": "traditional|modern|minimalist|detailed",
+            "term_organization": "semester|quarter|year|continuous",
+            "grade_display": "letter|percentage|both|other",
+            "course_arrangement": "chronological|subject_grouped|other",
+            "confidence": "high|medium|low"
+        },
+        "structure": {
+            "layout": "traditional_vertical|grid_based|multi_column|modern",
+            "main_sections": [
+                {
+                    "name": "section name",
+                    "position": "top|middle|bottom|left|right",
+                    "format": "table|text|list"
+                }
+            ],
+            "visual_elements": {
+                "has_letterhead": true|false,
+                "has_watermark": true|false,
+                "has_seal": true|false,
+                "has_security_features": true|false
+            }
+        }
+    }
+
+    Important:
+    - Only include information you can see - use "N/A" for missing items
+    - For institution, look for official school name and any institutional codes
+    - For format, analyze the transcript's style and organization of information
+    - For structure, analyze the physical layout and organization
+    - Maintain exact JSON structure with these fields
+    """
+    
+    response = gemini_model.generate_content([prompt, *images])
+        
+    try:
+        response_text = response.text
+    except Exception as e:
+        print(f"Error processing: {e}")
+
+    
+    return response_text

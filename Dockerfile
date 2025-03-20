@@ -30,4 +30,4 @@ RUN mkdir -p migrations/versions
 ENV PYTHONPATH=/app
 
 # Run migrations and start application
-CMD wait-for db:5432 -- alembic upgrade head && python app.py
+CMD wait-for db:5432 -- alembic upgrade head && tail -f /dev/null
